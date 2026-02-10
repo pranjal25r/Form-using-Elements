@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Google Form Clone</title>
+    <title>Form using Elements</title>
     <style>
         body {
             font-family: Arial;
@@ -17,6 +17,29 @@
         label {
             font-weight: bold;
         }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+        .radio-group input,
+        .checkbox-group input {
+            width: auto;
+        }
+        button {
+            padding: 10px 16px;
+            margin-right: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button[type="submit"] {
+            background-color: #1a73e8;
+            color: white;
+        }
+        button[type="reset"] {
+            background-color: #e0e0e0;
+        }
     </style>
 </head>
 <body>
@@ -26,46 +49,53 @@
     <form method="POST">
 
         <!-- Text Box -->
-        <label>Name</label><br>
-        <input type="text" name="name" required><br><br>
+        <label>Name</label>
+        <input type="text" name="name" required>
 
         <!-- Email -->
-        <label>Email</label><br>
-        <input type="email" name="email" required><br><br>
+        <label>Email</label>
+        <input type="email" name="email" required>
 
         <!-- Number -->
-        <label>Age</label><br>
-        <input type="number" name="age"><br><br>
+        <label>Age</label>
+        <input type="number" name="age">
 
         <!-- Radio Buttons -->
-        <label>Gender</label><br>
-        <input type="radio" name="gender" value="Male"> Male
-        <input type="radio" name="gender" value="Female"> Female
-        <input type="radio" name="gender" value="Other"> Other<br><br>
+        <label>Gender</label>
+        <div class="radio-group">
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Other"> Other
+        </div>
 
         <!-- Checkboxes -->
-        <label>Skills</label><br>
-        <input type="checkbox" name="skills" value="Python"> Python
-        <input type="checkbox" name="skills" value="ML"> ML
-        <input type="checkbox" name="skills" value="DSA"> DSA<br><br>
+        <label>Skills</label>
+        <div class="checkbox-group">
+            <input type="checkbox" name="skills" value="Python"> Python
+            <input type="checkbox" name="skills" value="ML"> ML
+            <input type="checkbox" name="skills" value="DSA"> DSA
+        </div>
 
         <!-- Dropdown -->
-        <label>Course</label><br>
+        <label>Course</label>
         <select name="course">
             <option value="BTech">BTech</option>
             <option value="MTech">MTech</option>
             <option value="PhD">PhD</option>
-        </select><br><br>
+        </select>
 
         <!-- Date -->
-        <label>Date of Birth</label><br>
-        <input type="date" name="dob"><br><br>
+        <label>Date of Birth</label>
+        <input type="date" name="dob">
 
         <!-- Textarea -->
-        <label>Feedback</label><br>
-        <textarea name="feedback" rows="4" cols="50"></textarea><br><br>
+        <label>Feedback</label>
+        <textarea name="feedback" rows="4"></textarea>
 
+        <br><br>
         <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
     </form>
 </div>
 
