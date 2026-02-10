@@ -61,7 +61,6 @@ http://127.0.0.1:5000/
 ## 📸 Screenshots
 
 
-```md
 <p align="center">
   <img src="screenshots/form.png" width="700">
 </p>
@@ -69,9 +68,6 @@ http://127.0.0.1:5000/
 <p align="center">
   <img src="screenshots/success.png" width="700">
 </p>
-
-
-```
 
 ---
 
