@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Form Clone</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f1f3f4;
+        }
+        .form-container {
+            width: 50%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Student Feedback Form</h2>
+    <form method="POST">
+
+        <!-- Text Box -->
+        <label>Name</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <!-- Email -->
+        <label>Email</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <!-- Number -->
+        <label>Age</label><br>
+        <input type="number" name="age"><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender</label><br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other<br><br>
+
+        <!-- Checkboxes -->
+        <label>Skills</label><br>
+        <input type="checkbox" name="skills" value="Python"> Python
+        <input type="checkbox" name="skills" value="ML"> ML
+        <input type="checkbox" name="skills" value="DSA"> DSA<br><br>
+
+        <!-- Dropdown -->
+        <label>Course</label><br>
+        <select name="course">
+            <option value="BTech">BTech</option>
+            <option value="MTech">MTech</option>
+            <option value="PhD">PhD</option>
+        </select><br><br>
+
+        <!-- Date -->
+        <label>Date of Birth</label><br>
+        <input type="date" name="dob"><br><br>
+
+        <!-- Textarea -->
+        <label>Feedback</label><br>
+        <textarea name="feedback" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
