@@ -1,9 +1,3 @@
-Perfect 👍
-Here’s the **updated, clean README** with the correct project name **“Form using Elements”** (no Google Forms reference anywhere).
-You can copy-paste this directly as `README.md`.
-
----
-
 # 📝 Form using Elements (Flask – Python)
 
 A **Python-based web form application** built using **Flask**, demonstrating the use of all common **HTML form elements** such as text inputs, radio buttons, checkboxes, dropdowns, date pickers, and text areas.
@@ -32,21 +26,6 @@ This project focuses on **form handling and backend processing** using Flask.
 * **Frontend:** HTML, CSS
 * **Template Engine:** Jinja2
 * **Server:** Flask Development Server
-
----
-
-## 📁 Project Structure
-
-```
-form-using-elements/
-│
-├── app.py
-├── templates/
-│   ├── form.html
-│   └── success.html
-├── static/
-└── README.md
-```
 
 ---
 
@@ -83,8 +62,15 @@ http://127.0.0.1:5000/
 
 
 ```md
-![Form Page](screenshots/form.png)
-![Submission Page](screenshots/success.png)
+![Form Page]<p align="center">
+  <img src="screenshots/form.png" width="700">
+</p>
+
+![Submission Page]<p align="center">
+  <img src="screenshots/success.png" width="700">
+</p>
+
+
 ```
 
 ---
