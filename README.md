@@ -62,11 +62,11 @@ http://127.0.0.1:5000/
 
 
 ```md
-![Form Page]<p align="center">
+<p align="center">
   <img src="screenshots/form.png" width="700">
 </p>
 
-![Submission Page]<p align="center">
+<p align="center">
   <img src="screenshots/success.png" width="700">
 </p>
 
