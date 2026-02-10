@@ -38,19 +38,13 @@ git clone https://github.com/pranjal25r/Form-using-Elements.git
 cd Form-using-Elements
 ```
 
-### 2️⃣ Install Required Dependencies
-
-```bash
-pip install flask
-```
-
-### 3️⃣ Run the Application
+### 2️⃣ Run the Application
 
 ```bash
 python app.py
 ```
 
-### 4️⃣ Open in Browser
+### 3️⃣ Open in Browser
 
 ```
 http://127.0.0.1:5000/
